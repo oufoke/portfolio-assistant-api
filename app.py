@@ -31,7 +31,6 @@ from bot import Bot
 # temporairement si tu veux tester le widget contre l'API en local.
 ALLOWED_ORIGINS = [
     "https://oufoke.github.io",
-    "http://localhost:1313",   # TEMPORAIRE — à retirer avant la mise en ligne
 ]
 
 MAX_QUESTION_LENGTH = 500

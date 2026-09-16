@@ -1,0 +1,40 @@
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 90
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: France Travail (Siège)
+    url: "https://www.francetravail.fr"
+    location: Paris, France
+    logo: /images/sections/experiences/logo-ft.svg
+    overview: "6 ans à transformer des systèmes data complexes en produits décisionnels fiables — de la gouvernance institutionnelle à l'IA appliquée. Expert du delivery en environnement contraint : SI nationaux, données sensibles, interface DSI/Métier."
+
+  positions:
+
+  - designation: Senior Data Product Manager — Pilotage Immobilier National
+    start: Mai 2026
+    end: Juillet 2026
+    responsibilities:
+    - "**Audit décisionnel & refonte du pilotage immobilier national :** Audit quantitatif du parc de reporting existant — 3 318 consultations, 126 utilisateurs, 279 rapports sur un trimestre. Constat structurant : **23 pages concentrent 90% du trafic**, tout le reste du parc pèse 10%. Définition du processus cible de production et nouvelle architecture décisionnelle — 101 indicateurs structurés sur 4 dimensions (surfaces, budget, SPSI, loyers) couvrant 1 000+ sites nationaux et 20 Directions Régionales."
+    - "**Dashboard Digdash & Pilotage Stratégique :** Livraison du tableau de bord Digdash avec module de pilotage stratégique SPSI vs réalisé RE-FX (écarts projections/réel selon les axes définis par la direction). Carte de France interactive et cockpit d'arbitrage par pôle."
+    - "**Automatisation & Architecture cible :** Le cycle mensuel de production était intégralement manuel — **3 jours** entre extraction SAP, recopies inter-fichiers, chargement Digdash, contrôles et go DSI. Double livraison : un Excel maître supprimant toute la partie recopie (**une demi-journée par mois** et le risque d'erreur de saisie), et l'EDB DSI pour l'automatisation du pipeline SAP → Digdash de bout en bout (15 exigences fonctionnelles, plan de migration en 5 phases)."
+
+  - designation: Senior Data Product Manager — Gouvernance & DataOps
+    start: Mai 2025
+    end: Avril 2026
+    responsibilities:
+    - "**QualiStat · DataTrust :** Conception et déploiement d'un système de gouvernance automatisé (Power BI / DAX) imposant des Quality Gates stricts sur le cycle de production des indicateurs publics nationaux (datemploi). Livraisons validées avant toute exposition nationale."
+    - "**Enterprise Knowledge Framework :** Déploiement d'un socle DataOps (Docusaurus · Docs-as-Code) en environnement DSI sécurisé — source unique de vérité, suppression des conflits de versions MOA ↔ DGA Tech. Réduction mesurable du time-to-market sur les évolutions SI."
+    - "**Product Leadership Transverse :** Alignement stratégique entre la Direction des Statistiques et la DGA Tech sur 3 produits simultanés. Acculturation de 10+ chargés MOA aux workflows agiles (sprints, backlog, métriques de succès définies avant livraison)."
+
+  - designation: Data Product Manager / Data Manager
+    start: Février 2020
+    end: Avril 2025
+    responsibilities:
+    - "**Pilotage Production Nationale (Data Emploi) :** Pilotage du cycle de vie des indicateurs nationaux du marché du travail diffusés sur datemploi.francetravail.fr — intégration des référentiels INSEE et URSSAF, livraison des indicateurs France Travail à la DARES et au Ministère du Travail, arbitrages planning et priorisation des évolutions."
+    - "**Industrialisation & Partenariats Institutionnels :** Conception des programmes d'extraction complexes (SQL, SAS) industrialisés par la DSI pour les partenaires stratégiques de l'État. Sécurisation des flux data à grande échelle sur le Fichier National des Allocataires (FNA)."
+    - "**Interface DSI/Métier :** Traduction des enjeux métiers en décisions d'architecture et arbitrages techniques — de la spécification fonctionnelle jusqu'à la recette en production. Interface unique entre les équipes statistiques et la DSI sur 5 ans."

@@ -1,0 +1,76 @@
+section:
+  name: Formation
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 50
+  showOnNavbar: true
+
+degrees:
+- name: "Master 2 - Ingénierie Statistique et Data Science (ISIFAR)"
+  icon: fa-graduation-cap
+  timeframe: 2016 - 2018
+  institution:
+    name: Université Paris Cité
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  summary: "Formation d'ingénieur statisticien spécialisé dans les applications de la statistique et de l'informatique à la finance et à la gestion des risques."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Apprentissage statistique (Machine Learning)
+    - name: Programmation en Python & Initiation C#
+    - name: Projet Data Science & Data Mining
+    - name: Mathématiques de l'Assurance & Financières
+    - name: Produits dérivés- modélisation et implémentation
+    - name: Gestion d'actifs
+
+- name: "Master 1 - Mathématiques, Modélisation, Apprentissage"
+  icon: fa-graduation-cap
+  timeframe: 2015 - 2016
+  institution:
+    name: Université Paris Cité (Paris Descartes)
+    url: "https://u-paris.fr/"
+    logo: /images/sections/education/UniversiteParisCite.jpg
+  summary: "Spécialisation en probabilités avancées et modélisation statistique. Mention Assez-Bien."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Séries temporelles & Chaînes de Markov
+    - name: Estimation de paramètres & Tests paramétriques
+    - name: Régression linéaire multivariée
+    - name: Optimisation sous contrainte
+    - name: Martingales à temps discret & Convergence
+    - name: Méthodes variationnelles et EDP
+
+- name: "Cycle Ingénieur - Mathématiques Appliquées et Calcul Scientifique"
+  icon: fa-university
+  timeframe: 2012 - 2015
+  institution:
+    name: Sup Galilée
+    url: "https://sup-galilee.univ-paris13.fr/"
+    logo: /images/sections/education/LOGO1.png
+  summary: "Maîtrise des outils mathématiques et informatiques pour la modélisation industrielle et financière."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 3
+    courses:
+    - name: Analyse numérique & Probabilités-Statistiques
+    - name: Algorithmique & Conception de codes industriels
+    - name: Modélisation probabiliste (Finance, Banque, Assurance)
+    - name: Modélisation déterministe (Mécanique, Physique)
+    - name: Finance de marché & Culture de l'ingénieur
+
+- name: "Classes Préparatoires aux Grandes Écoles (CPGE)"
+  icon: fa-school
+  timeframe: 2009 - 2012
+  institution:
+    name: Lycées Pierre d'Ailly & Jacques Decour
+    logo: /images/sections/education/logoLPASciences.png
+  summary: "Filière PCSI / PC (Physique, Chimie, Mathématiques)."
+  takenCourses:
+    showGrades: False
+    collapseAfter: 0
+    courses: []

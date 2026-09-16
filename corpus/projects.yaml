@@ -1,0 +1,81 @@
+section:
+  name: "Produits & Études de Cas"
+  id: "projects"
+  enable: true
+  weight: 60
+  showOnNavbar: true
+
+buttons:
+- name: "Tout voir"
+  filter: "all"
+- name: "Intelligence Artificielle (NLP/GenAI)"
+  filter: "ai"
+- name: "Gouvernance & DataOps"
+  filter: "gov"
+- name: "Solutions Métiers (PropTech / LegalTech)"
+  filter: "biz"
+
+projects:
+
+- name: "OptIMMO — Boussole Décisionnelle Immobilier"
+  logo: "/images/sections/projects/dataops-logo.png"
+  image: "/images/sections/projects/Dataops.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke"
+  summary: "1 000+ sites immobiliers pilotés sans comparaison SPSI vs réalisé. Restructuration du BI Digdash (279 rapports · 42 sources), automatisation SAP → Digdash (−4h/mois), module C-Level SPSI. Résultat : zéro dépendance manuelle sur le cycle mensuel."
+  tags: ["gov", "biz"]
+
+- name: "Real Estate Data Control Tower"
+  logo: "/images/sections/projects/prophet.png"
+  image: "/images/sections/projects/prophet.png"
+  role: "Senior Data Product Manager"
+  timeline: "2026"
+  url: "https://github.com/oufoke/Real-Estate-Data-Control-Tower"
+  summary: "Décisions CAPEX/OPEX prises à l'aveugle faute de visibilité à 18 mois. Tour de contrôle prédictive (Prophet · Power BI) simulant les scénarios d'investissement multi-sites. Réduction de l'incertitude budgétaire de ±30%."
+  tags: ["ai", "biz"]
+
+- name: "Juris Sensus AI"
+  logo: "/images/sections/projects/juris-sensus-showcase-logo.png"
+  image: "/images/sections/projects/juris-sensus-showcase.png"
+  role: "Product Builder / AI Engineer"
+  timeline: "2026"
+  url: "https://github.com/oufoke/juris-sensus-ai"
+  summary: "3 semaines d'investigation manuelle sur des corpus massifs. Pipeline NLP Zero-Shot (mDeBERTa-v3) automatisant la détection de risques légaux sur 10 000+ fichiers. Temps d'analyse réduit à 4 heures (−95%)."
+  tags: ["ai", "biz"]
+
+- name: "HR-Tech AI Screener"
+  logo: "/images/sections/projects/smart-screener.png"
+  image: "/images/sections/projects/smart-screener.png"
+  role: "AI Product Manager"
+  timeline: "2024 - 2025"
+  url: "https://smart-screener-ofk-zpgy6gg8dn56wvapifnxxc.streamlit.app/"
+  summary: "Évaluation de CV chronophage et incohérente entre recruteurs. Assistant RAG (LangChain · GPT-4o) analysant les CV, détectant les incohérences et générant des guides d'entretien. Opérationnel en 30 secondes sur Streamlit."
+  tags: ["ai"]
+
+- name: "B2B Predictive Lead Scoring"
+  logo: "/images/sections/projects/xgboost.png"
+  image: "/images/sections/projects/xgboost.png"
+  role: "ML Engineer / PM"
+  timeline: "Dec 2025"
+  url: "https://lead-scoring-portofolio-ofk.streamlit.app/"
+  summary: "Tous les leads traités à égalité, effort de vente dilué, CAC gonflé. Moteur de scoring XGBoost/SHAP priorisant automatiquement les leads par probabilité de conversion. Déployé sur Streamlit."
+  tags: ["ai", "biz"]
+
+- name: "QualiStat — Data Trust Audit System"
+  logo: "/images/sections/projects/QualiStat-logo.png"
+  image: "/images/sections/projects/qualistat.png"
+  role: "Data Governance Lead"
+  timeline: "2025 - 2026"
+  url: "https://github.com/oufoke/datatrust-audit-system"
+  summary: "Indicateurs publics livrés sans contrôle qualité, risque d'erreur de reporting national. Quality Gates Power BI/DAX automatiques sur tout le cycle de production. Zéro défaut en production sur 12 mois."
+  tags: ["gov"]
+
+- name: "DataBridge Ops — MAP/GPS MOA"
+  logo: "/images/sections/projects/dataops-logo.png"
+  image: "/images/sections/projects/Dataops.png"
+  role: "DataOps Architect"
+  timeline: "2025"
+  url: "https://github.com/oufoke/DataBridge-Ops"
+  summary: "Règles métier documentées en silos, dette documentaire bloquant chaque évolution SI. Socle Docs-as-Code (Docusaurus · CI/CD) centralisant les règles en source unique de vérité."
+  tags: ["gov"]

@@ -1,0 +1,7 @@
+section:
+  name: "Articles Récents"
+  id: "recent-posts"
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  template: sections/recent-posts.html

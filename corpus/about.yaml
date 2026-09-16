@@ -1,0 +1,88 @@
+section:
+  name: "À Propos"
+  id: "about"
+  enable: true
+  weight: 100
+  showOnNavbar: true
+  template: "sections/about.html"
+
+designation: "Senior Data Product Manager | IA & Gouvernance Data"
+
+company:
+  name: "France Travail (Siège)"
+  url: "https://www.francetravail.fr"
+
+resourceLinks:
+- title: "Télécharger mon CV (PDF)"
+  url: "files/Oumar_Fode_KEBE.pdf"
+
+summary: |
+  **Mathématicien-Ingénieur Data de formation, je transforme des systèmes data complexes en produits décisionnels fiables — de la gouvernance institutionnelle jusqu'au dernier mile décisionnel.**
+
+  6 ans à piloter les données stratégiques de France Travail à l'échelle nationale — en intégrant les référentiels de l'INSEE et de l'URSSAF, et en livrant nos indicateurs aux partenaires institutionnels de l'État (DARES, Ministère du Travail).
+
+  6 produits livrés : 2 applications publiques en ligne, 3 systèmes déployés en environnement professionnel, 1 moteur NLP validé sur corpus réel.
+
+  Un seul objectif : que chaque décision de direction s'appuie sur une donnée fiable et un modèle actionnable.
+
+  ### 🎯 Ce que j'apporte concrètement
+
+  * **Gouvernance & DataOps :** Conception de systèmes de Quality Gates automatisés (QualiStat · Power BI/DAX) sur des pipelines d'indicateurs publics nationaux. Sur la Direction Immobilière : cycle de production mensuel entièrement manuel — **3 jours** entre extraction SAP, recopies inter-fichiers, chargement Digdash et contrôles. J'ai livré un Excel maître supprimant toute la partie recopie (**une demi-journée par mois**, et le risque d'erreur de saisie) et rédigé l'EDB DSI — 15 exigences, migration en 5 phases — pour automatiser le pipeline de bout en bout.
+  * **BI & Pilotage C-Level :** Audit quantitatif du parc décisionnel immobilier — 3 318 consultations, 126 utilisateurs sur un trimestre. Résultat : **23 pages concentrent 90% du trafic**, le reste du parc pèse 10%. Restructuration en 101 indicateurs sur 4 dimensions, pour la direction immobilière nationale (1 000+ sites, 20 Directions Régionales).
+  * **IA Appliquée (NLP / GenAI) :** Juris Sensus AI — pipeline NLP Zero-Shot traitant **3 609 documents en moins de 4 heures**, en exécution 100% locale sur 16 Go (contrainte de confidentialité, zéro appel API). Architectures RAG déployées sur Streamlit.
+
+  ### 🏗️ Domaines & Secteurs
+
+  * **PropTech & Asset Management :** Pilotage décisionnel d'un parc immobilier national (SPSI · RE-FX · Décret Tertiaire) — 1 000+ sites, module d'arbitrage projections vs réalisé.
+  * **LegalTech & Compliance :** Moteurs NLP forensiques pour audit sémantique massif (E-Discovery · AI Act · RGPD).
+  * **Emploi & Politiques Publiques :** Production et industrialisation d'indicateurs stratégiques diffusés au niveau national (datemploi), en interface avec l'INSEE, la DARES et l'URSSAF.
+
+  ### 🛠️ Stack
+
+  * **Product :** OKRs · PRD · MLOps Lifecycle · Backlog · Stakeholder Management
+  * **Data Science & IA :** Python · XGBoost · Prophet · NLP (mDeBERTa, RAG, Zero-Shot) · LangChain
+  * **Data Engineering :** SQL · SAS · VBA · SAP RE-FX · PySpark · API REST
+  * **BI & Viz :** Power BI · DAX avancé · Digdash Studio · Streamlit
+  * **DevOps :** GitOps · CI/CD · Docs-as-Code · Docusaurus
+
+socialLinks:
+- name: "Email"
+  icon: "fas fa-envelope"
+  url: "mailto:oumarfodek@gmail.com"
+- name: "Github"
+  icon: "fab fa-github"
+  url: "https://www.github.com/oufoke"
+- name: "LinkedIn"
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/oumarfodek/"
+
+badges:
+- type: "certification"
+  name: "Data Product Manager (Sorbonne)"
+  url: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+  badge: "/files/datascientestLogo.png"
+
+- type: "certification"
+  name: "AI Engineer Associate"
+  url: "https://www.datacamp.com/certificate/AEDS0013592331030"
+  badge: "/files/certification-ai-engineer-for-data-scientist-associate-badge.png"
+
+- type: "certification"
+  name: "Data Scientist Professional"
+  url: "https://www.datacamp.com/certificate/DS0027579108829"
+  badge: "/files/data_scientist_professional_badge.png"
+
+- type: "soft-skill-indicator"
+  name: "Stratégie Produit & Discovery"
+  percentage: 90
+  color: "orange"
+
+- type: "soft-skill-indicator"
+  name: "Leadership Transverse"
+  percentage: 80
+  color: "green"
+
+- type: "soft-skill-indicator"
+  name: "Architecture Data & IA"
+  percentage: 90
+  color: "blue"

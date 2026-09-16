@@ -1,0 +1,19 @@
+section:
+  name: Réalisations & Mindset
+  id: achievements
+  enable: true
+  weight: 40
+  showOnNavbar: true
+
+achievements:
+- image: images/sections/achievements/ekiden.jpg
+  title: Ekiden de Paris 2025
+  summary: "Marathon en relais 5km (30 min). Coordonner un relais, c'est gérer une chaîne de dépendances sous pression — exactement ce que je fais quand j'orchestre une livraison data entre équipes MOA, DSI et direction."
+
+- image: images/sections/achievements/sinequanon.png
+  title: Sine Qua Non Run 2026
+  summary: "Course engagée 10km (58 min). Tenir un rythme sur la durée sans se laisser distancer par l'inconfort — la même discipline qui me permet de livrer des produits complexes en environnement contraint."
+
+- image: images/sections/achievements/piano-beatmaking.png
+  title: Piano & Beat Making
+  summary: "Apprentissage du piano et production musicale assistée par IA. Structurer une mélodie ou un pipeline data demande la même chose : décomposer un problème complexe en séquences maîtrisables, puis assembler."

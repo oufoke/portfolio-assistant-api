@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Certifications & Réalisations
+  id: accomplishments
+  enable: true
+  weight: 70
+  showOnNavbar: true
+
+# Your accomplishments
+accomplishments:
+- name: "Data Product Manager"
+  timeline: "Nov. 2024"
+  organization:
+    name: "DataScientest (Certifié Mines ParisTech / Sorbonne)"
+    url: https://datascientest.com/
+  courseOverview: "Maîtrise du cycle de vie complet d'un produit Data : du Product Discovery à l'industrialisation. Alignement des KPIs business avec les métriques techniques, priorisation (RICE, MoSCoW) et animation de la relation entre les directions métiers et la DSI."
+  certificateURL: "https://files.datascientest.com/diploma/3524d284-adc5-4aed-9741-b30fad29d869.pdf"
+
+- name: "AI Engineer for Data Scientists Associate"
+  timeline: "Juillet 2025"
+  organization:
+    name: "DataCamp"
+    url: https://www.datacamp.com
+  courseOverview: "Spécialisation avancée en IA Générative. Capacité à concevoir des architectures RAG, à évaluer la faisabilité technique des features IA, et à maîtriser les coûts d'infrastructure liés aux LLMs. Permet une collaboration experte avec les Data Scientists."
+  certificateURL: "https://www.datacamp.com/certificate/AEDS0013592331030"
+
+- name: "Gouvernance : RGPD, Éthique de l'IA et AI Act"
+  timeline: "2024"
+  organization:
+    name: "DataScientest"
+    url: https://datascientest.com/
+  courseOverview: "Maîtrise du cadre réglementaire européen (AI Act, RGPD). Compétence clé pour sécuriser juridiquement les produits IA, concevoir des moteurs d'audit (LegalTech) et garantir la conformité des flux de données sensibles (données publiques)."
+  certificateURL: "https://datascientest.com/"
+
+- name: "Data Quality & Architecture (PySpark, API)"
+  timeline: "Nov. 2024"
+  organization:
+    name: "DataScientest"
+    url: https://datascientest.com/
+  courseOverview: "Regroupement de certifications expertes (Data Quality, ETL avec PySpark, Intégration de données API). Garantit mon expertise dans la mise en place de Quality Gates stricts et la fiabilisation des flux de données massifs avant exposition métier."
+  certificateURL: "https://datascientest.com/"
+
+- name: "Data Scientist Professional"
+  timeline: "Juin 2023"
+  organization:
+    name: "DataCamp"
+    url: https://www.datacamp.com
+  courseOverview: "Validation d'une expertise technique profonde en Machine Learning et statistiques. En tant que PM, cela me permet d'être autonome sur l'exploration de données (EDA) pour valider des hypothèses produit sans solliciter systématiquement la DSI."
+  certificateURL: "https://www.datacamp.com/certificate/DS0027579108829"
+
+- name: "Data Engineer & Core Tech Stack (SQL/Python)"
+  timeline: "2023 - 2024"
+  organization:
+    name: "DataCamp / DataScientest"
+    url: https://www.datacamp.com
+  courseOverview: "Certifications techniques multiples (Data Engineer Associate, SQL for Data Science, Python Data Associate). Compréhension fine des enjeux d'infrastructure (ETL/ELT) et exécution de requêtes complexes pour auditer le ROI produit."
+  certificateURL: "https://www.datacamp.com/certificate/DE0019334068921"

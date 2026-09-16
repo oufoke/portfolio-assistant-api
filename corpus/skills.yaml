@@ -1,0 +1,35 @@
+section:
+  name: "Expertises Stratégiques"
+  id: "skills"
+  enable: true
+  weight: 80
+  showOnNavbar: true
+
+skills:
+- name: "Stratégie Produit & Pilotage C-Level"
+  logo: "images/sections/skills/product.png"
+  summary: "Alignement stratégique (DSI/Métiers) et pilotage de la vision par la valeur décisionnelle. Définition d'OKRs, gestion de PRD complexes et traduction des enjeux pour l'ingénierie."
+
+- name: "Gouvernance & DataOps"
+  logo: "images/sections/skills/governance.png"
+  summary: "Industrialisation de la production (Docs-as-Code) et mise en place de Quality Gates. Réduction de la dette technique et documentaire sur des SI nationaux (SAP, Legacy)."
+
+- name: "IA Appliquée (NLP / GenAI)"
+  logo: "images/sections/skills/ai.png"
+  summary: "Conception de moteurs NLP forensiques en exécution souveraine (LegalTech E-Discovery, Zero-Shot) et d'architectures RAG. Arbitrage sur la pertinence réelle d'embarquer de l'IA dans un dispositif."
+
+- name: "Data Science & Ingénierie (Python/ML)"
+  logo: "images/sections/skills/python.png"
+  summary: "Expertise technique (Python, XGBoost, Prophet, SHAP) pour prototyper et valider des solutions de scoring, de forecasting et d'IA explicable de bout en bout."
+
+- name: "Architecture Data Institutionnelle (SQL/SAS)"
+  logo: "images/sections/skills/database.png"
+  summary: "Conception et optimisation de pipelines massifs sécurisés pour l'industrialisation DSI et les partenaires institutionnels de l'État (INSEE, DARES, URSSAF)."
+
+- name: "Business Intelligence & Data Viz"
+  logo: "images/sections/skills/powerbi.png"
+  summary: "Audit de parc décisionnel et conception d'architectures BI (Power BI, DAX avancé, Digdash, Streamlit) pour le pilotage stratégique et le suivi opérationnel."
+
+- name: "Agilité & Cycle de Production"
+  logo: "images/sections/skills/agile.png"
+  summary: "Orchestration des cycles de production (GitOps, CI/CD). Animation de l'amélioration continue entre les équipes MOA et la DGA SI."
